@@ -21,7 +21,7 @@ const productList: Array<ProductType> = [
 ]
 
 function App () {
-  const [products, setProducts] = useState(productList)
+  const [products] = useState(productList)
 
   const showUser = (user : User) => {
     console.log('user::', user)
