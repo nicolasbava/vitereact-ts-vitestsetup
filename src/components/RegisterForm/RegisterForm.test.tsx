@@ -39,7 +39,7 @@ describe('RegisterForm', () => {
         let paragraph = screen.queryByText(/para poder registrarte/i);
         expect(paragraph).not.toBeInTheDocument()
 
-        const paragraphInfo = screen.getByText(/más informació/i);
+        const paragraphInfo = screen.getByText(/más información/i);
 
         await userEvent.hover(paragraphInfo)
 
